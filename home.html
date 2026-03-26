@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- META ESSENCIAL -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Intention | Moda Evangélica Feminina</title>
+  <meta name="description" content="Catálogo online de moda evangélica feminina. Roupas elegantes, modernas e modestas para todas as ocasiões.">
+  <meta name="keywords" content="moda evangélica, roupas femininas, moda modesta, vestidos evangélicos, Intention">
+  <meta name="author" content="Intention">
+
+  <!-- OPEN GRAPH (melhora compartilhamento) -->
+  <meta property="og:title" content="Intention | Moda Evangélica Feminina">
+  <meta property="og:description" content="Descubra peças elegantes e modestas no catálogo da Intention.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/banner.jpg">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="./assets/images/icon.png" />
+
+  <!-- CSS & ICON -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <!-- JS -->
+  <script src="./js/components/components.js" defer></script>
+  <script type="module" src="./js/components/search.js"></script>
+</head>
+<body>
+<div class="app">
+  
+    <!--<div id="navbar"></div>-->
+  
+    <!-- Main content -->
+    <main class="home">
+
+      <section class="intention-header">
+        <h1 class="logo">Intention 
+          <span>store</span></h1>
+        <p>
+          Seja bem-vinda!<br>
+          Confira todos os nossos produtos.<br>
+          Ofertas por tempo limitado!
+        </p>
+      </section>
+  
+      <!-- Search -->
+      <section class="search" id="searchResults">
+        <div class="container__search">
+          <i class='bx bx-search'></i>
+          <input
+            type="text"
+            placeholder="Buscar tinta pelo nome..."
+            id="searchInput" autocomplete="off"
+          />
+        </div>
+  
+        <div id="searchList" class="search__list"></div>
+      </section>
+  
+      <!-- Inspiration Carousel 
+      <section class="section__carousel">
+        <div class="carousel no-scrollbar">
+          <div class="carousel__track">
+
+            <div class="carousel__item">
+              <a href="product.html?id=manta-liquida-quartzolit">
+                <img src="./assets/images/inspirations/manta-liquida.webp" alt="manta-liquida Quartzolit">
+              </a>
+            </div>
+  
+            <div class="carousel__item">
+              <a href="product.html?id=lukscolor-acrilico">
+                <img src="./assets/images/inspirations/banner-lukscolor.webp" alt="Linha Lukscolor">
+              </a>
+            </div>
+  
+            <div class="carousel__item">
+              <a href="product.html?id=coral-acrilico">
+                <img src="./assets/images/inspirations/coralar-carrossel.webp" alt="Linha Coral">
+              </a>
+            </div>
+  
+            <div class="carousel__item">
+              <a href="product.html?id=iraja-economica">
+                <img src="./assets/images/inspirations/iraja-tintas.webp" alt="linha Iraja">
+              </a>
+            </div>
+  
+          </div>
+        </div>
+      </section> -->
+  
+      <!-- Categories 
+      <section class="categories">
+        <h2 class="section__title">Categorias</h2>
+  
+        <div class="categories__list no-scrollbar">
+          <a href="categorias/acrilica.html" class="category-card">
+            <div class="category-card__image">
+              <img src="assets/images/home/categories/acrilica.avif" alt="Parede sendo pintada com tinta acrílica">
+            </div>
+            <div class="category-card__label">Acrílica</div>
+          </a>
+  
+          <a href="categorias/esmalte.html" class="category-card">
+            <div class="category-card__image">
+              <img src="assets/images/home/categories/esmalte.jpg" alt="Portão de ferro sendo pintado com esmalte">
+            </div>
+            <div class="category-card__label">Esmalte</div>
+          </a>
+  
+          <a href="categorias/verniz.html" class="category-card">
+            <div class="category-card__image">
+              <img src="assets/images/home/categories/verniz.jpg" alt="Madeira sendo envernizada com pincel">
+            </div>
+            <div class="category-card__label">Verniz</div>
+          </a>
+  
+          <a href="categorias/complementos.html" class="category-card">
+            <div class="category-card__image">
+              <img src="assets/images/home/categories/complementos.jpg" alt="Parede sendo lixada com lixa manual">
+            </div>
+            <div class="category-card__label">Complementos</div>
+          </a>
+        </div>
+      </section>
+    -->
+
+      <section class="intention-categories no-scrollbar">
+        <div class="category">
+          <img src="assets/images/home/categories/jaquetas.jpg" alt="Jaquetas">
+          <span>Jaquetas</span>
+        </div>
+
+        <div class="category">
+          <img src="assets/images/home/categories/vestidos.jpg" alt="Vestidos">
+          <span>Vestidos</span>
+        </div>
+
+        <div class="category">
+          <img src="assets/images/home/categories/casual.jpg" alt="Casual">
+          <span>Casual</span>
+        </div>
+
+        <div class="category">
+          <img src="assets/images/home/categories/social.jpg" alt="Social">
+          <span>Social</span>
+        </div>
+
+        <div class="category">
+          <img src="assets/images/home/categories/calcas.jpg" alt="Calças">
+          <span>Calças</span>
+        </div>
+      </section>
+  
+  
+      <!-- Top Selling -->
+      <section class="top-paints">
+        <h2 class="section__title">Mais Vendidos</h2>
+  
+        <div class="top-paints__list">
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="assets/images/home/top/vestido-1.jpg" alt="Vestido Midi Elegante">
+            </div>
+
+            <div class="product-card__content">
+              <h3 class="product-card__title">Vestido Midi Elegante</h3>
+              <p class="price">R$ 90,00</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="assets/images/home/top/vestido-2.jpg" alt="Vestido Midi Elegante">
+            </div>
+
+            <div class="product-card__content">
+              <h3 class="product-card__title">Vestido Midi Elegante</h3>
+              <p class="price">R$ 90,00</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="assets/images/home/top/vestido-3.jpg" alt="Vestido Midi Elegante">
+            </div>
+
+            <div class="product-card__content">
+              <h3 class="product-card__title">Vestido Midi Elegante</h3>
+              <p class="price">R$ 90,00</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image">
+              <img src="assets/images/home/top/vestido-4.png" alt="Vestido Midi Elegante">
+            </div>
+
+            <div class="product-card__content">
+              <h3 class="product-card__title">Vestido Midi Elegante</h3>
+              <p class="price">R$ 90,00</p>
+            </div>
+          </article>
+        </div>
+      </section>
+  
+  
+    </main>
+  
+    <div id="bottom-nav"></div>
+</div>
+
+  <script src="js/components/carousel.js"></script>
+
+</body>
+</html>

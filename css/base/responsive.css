@@ -1,0 +1,12 @@
+ main{
+    width:100%;
+    max-width:750px;
+  }
+
+  @media (min-width: 768px) {
+  .product__colors {
+    overflow-x: hidden; /* tira o scroll */
+    flex-wrap: wrap;    /* quebra linha */
+    justify-content: flex-start;
+  }
+}

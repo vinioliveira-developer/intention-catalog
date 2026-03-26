@@ -1,0 +1,37 @@
+.home {
+  padding: 4rem 2rem 5rem;
+}
+
+
+.intention-header {
+  padding: 20px 16px 10px;
+  text-align: center;
+}
+
+.logo {
+  font-family: var(--font-family-base);
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  color: #4a67a1;
+
+  margin: 0;
+  line-height: 1;
+}
+
+.logo span {
+  display: block;
+
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: #888;
+
+  margin-top: 6px;
+}
+
+.intention-header p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+}
